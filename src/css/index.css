@@ -1,0 +1,141 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+div#header{
+    background-color: #14213dff;
+    min-height: 250px;
+    line-height: 250px;
+}
+
+h1{
+    margin: 0;
+    color: #fca311ff;
+    font-family: "EB Garamond", serif;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #e5e5e5ff;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+div#main{
+    padding: 20px 20px 0;
+    background-color: #e5e5e5ff;
+}
+
+div.sistema-solare{
+    background-color: #fca311ff;
+    border: 3px solid black;
+    padding: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+h2.sistema-solare__title{
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.sistema-solare__body{
+    font-size: 19px;
+    line-height: 1.15;
+}
+
+abbr{
+    text-decoration-line: none;
+    font-style: italic;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+li{
+    list-style-image: url(../../assets/img/icons8-pianeta-8\ \(1\).png);
+}
+
+div.pianeta-container{
+    margin: 20px 0 0;
+    font-size: 0;
+}
+
+div.pianeta-card{
+    width: calc(33.333333% - 20px);
+    padding: 20px 0;
+    border: 2px solid black;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 10px 20px;
+}
+
+
+div.pianeta-card__head{
+    text-align: center;
+}
+
+h2.pianeta-card__title{
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+div.pianeta-card__body{
+    padding: 20px;
+    font-family: "EB Garamond", serif;
+}
+
+p.pianeta-card__p{
+    margin: 0;
+}
+
+div.pianeta-card__footer{
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+div.pianeta__card--boundary-left{
+  margin-left: 0;
+  width: calc(33.333333% - 10px);
+}
+
+div.pianeta__card--boundary-right{
+  margin-right: 0;
+  width: calc(33.333333% - 10px);
+}
+
+address{
+    display: inline-block;
+}
+
+dd{display: inline-block;
+}
+
+dt{
+    display: inline-block;
+    min-width: 150px;
+}
+
+.bold-underline{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(26, 89, 184);
+}
+
+
+div#footer{
+    background-color: #fca311ff;
+    padding: 40px;
+}
